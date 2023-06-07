@@ -46,7 +46,7 @@ Here is the content.
 
 -w - Represents a json file that contains an array of words to be found and replaced.
 
--e - Can exclude a file a series of files, directory or list of directories follow by comas to be excleded.
+-e - Can exclude a file, a series of files, directory or list of directories follow by comas to be excluded.
 
 -l - Can set the out put to a log file. Example: -l myfile.log
 
