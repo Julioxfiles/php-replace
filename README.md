@@ -1,6 +1,6 @@
 # php replace 
 
-## php replace -f fileToBeReplace.php,anotherFile.txt,anotherFile.json -w fileWithDataToReplace.json 
+## php replace -f fileToBeReplace.php,anotherFile.txt -w fileWithDataToReplace.json 
 
 ## php replace -d directoryNameWhereFilesWillBeReplace -w fileWithDataToReplace.json -r true
 
