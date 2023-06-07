@@ -1,4 +1,4 @@
-# php replace
+# php replace -f fileToBeReplace.ext -w fileWithDataToReplace 
 
 php replace is a php program that works from the Windows or Linux command line and is capable of replacing the content of a file or series of files followed by commas or directories and subdirectories with the data specified in an array taken from a json file .
 
@@ -16,8 +16,12 @@ Here is the content.
 ## How to use it
 
   For example:
+  
+  php replace -d "C:\xampp\htdocs\tests" -w "words.json" -r true -e vendor,.env.php -l file.log 
 
-  php replace -d "C:\xampp\htdocs\tests" -w "words.json" -r true -e vendor,uno.php -l file.log 
+  This command will replace all the files in the directory "C:\xampp\htdocs\tests" with the content of the file words.json. The param -r true means it will read all sub-directories also. The -e vendor,.env.php will exclude the vendor directory and the .env file. The -l param will create a log file in the logs folder.
+
+
 
 ### Params
 
