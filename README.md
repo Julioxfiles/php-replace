@@ -2,7 +2,7 @@
 
 ## php replace -f fileToBeReplace.php,anotherFile.txt -w fileWithDataToReplace.json 
 
-## php replace -d directoryNameWhereFilesWillBeReplace -w fileWithDataToReplace.json -r true
+## php replace -d directoryWhereFilesWillBeReplaced -w fileWithDataToReplace.json -r true
 
 php replace is a php program that works from the Windows or Linux command line and is capable of replacing the content of a file or series of files followed by commas or directories and subdirectories with the data specified in an array taken from a json file .
 
