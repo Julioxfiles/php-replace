@@ -5,7 +5,7 @@ It works from the Windows/Linux terminal.
 
 ## php replace -d directoryWhereFilesWillBeReplaced -w fileWithDataToReplace.json -r true
 
-php replace is a php program that works from the Windows or Linux command line and is capable of replacing the content of a file or series of files followed by commas or directories and subdirectories with the data specified in an array taken from a json file .
+php replace is a php program that works from the Windows or Linux command line and is capable of replacing the content of a file or series of files followed by commas or one directory and its sub-directories with the data specified in an array taken from a json file.
 
 For this example, I'll use the words.json file. You can call whatever you want.
 Here is the content.
