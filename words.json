@@ -1,0 +1,5 @@
+[
+    {"replace":"Title","with":"title"},
+    {"replace":"Name","with":"name"},
+    {"replace":"Categori","with":"category"}
+]

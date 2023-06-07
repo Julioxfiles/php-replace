@@ -1,0 +1,495 @@
+2023-06-07 02:36:11 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:36:11 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 02:36:11 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 02:36:11 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:36:11 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:36:11 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+2023-06-07 02:36:11 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+2023-06-07 02:36:11 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:36:11 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:36:11 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:36:11 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 02:36:11 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 02:36:11 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:36:11 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:36:11 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\uno.php: 3 
+2023-06-07 02:36:11 - [✓] modified C:\xampp\htdocs\tests\replace\uno.php 
+2023-06-07 02:36:11 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\uno.php: 3 
+2023-06-07 02:36:11 - [✓] modified C:\xampp\htdocs\tests\replace\uno.php 
+2023-06-07 02:36:11 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 6 
+
+2023-06-07 02:36:11 - Excluding: vendor
+2023-06-07 02:36:11 - Files read ...........: 9
+2023-06-07 02:36:11 - Folders read..........: 1
+2023-06-07 02:36:11 - Files/folders excluded: 1
+2023-06-07 02:36:11 - Files modified........: 2
+2023-06-07 02:36:11 - Total of ocurrences...: 6
+2023-06-07 02:37:35 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:37:35 - Ocurrencies for $Title -> $title on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 02:37:35 - Ocurrencies for $Name -> $name on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 02:37:35 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:37:35 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:37:35 - Ocurrencies for $Title -> $title on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+2023-06-07 02:37:35 - Ocurrencies for $Name -> $name on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+2023-06-07 02:37:35 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:37:35 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:37:35 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:37:35 - Ocurrencies for $Title -> $title on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 02:37:35 - Ocurrencies for $Name -> $name on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 02:37:35 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:37:35 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:37:35 - Ocurrencies for $Title -> $title on file C:\xampp\htdocs\tests\replace\uno.php: 0 
+2023-06-07 02:37:35 - Ocurrencies for $Name -> $name on file C:\xampp\htdocs\tests\replace\uno.php: 0 
+2023-06-07 02:37:35 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:37:35 - Excluding: vendor
+2023-06-07 02:37:35 - Files read ...........: 9
+2023-06-07 02:37:35 - Folders read..........: 1
+2023-06-07 02:37:35 - Files/folders excluded: 1
+2023-06-07 02:37:35 - Files modified........: 0
+2023-06-07 02:37:35 - Total of ocurrences...: 0
+2023-06-07 02:38:51 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:38:51 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 02:38:51 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 02:38:51 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:38:51 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:38:51 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+2023-06-07 02:38:51 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+2023-06-07 02:38:51 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:38:51 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:38:51 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:38:51 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 02:38:51 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 02:38:51 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:38:51 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:38:51 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\uno.php: 1 
+2023-06-07 02:38:51 - [✓] modified C:\xampp\htdocs\tests\replace\uno.php 
+2023-06-07 02:38:51 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\uno.php: 1 
+2023-06-07 02:38:51 - [✓] modified C:\xampp\htdocs\tests\replace\uno.php 
+2023-06-07 02:38:51 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 2 
+
+2023-06-07 02:38:51 - Excluding: vendor
+2023-06-07 02:38:51 - Files read ...........: 9
+2023-06-07 02:38:51 - Folders read..........: 1
+2023-06-07 02:38:51 - Files/folders excluded: 1
+2023-06-07 02:38:51 - Files modified........: 2
+2023-06-07 02:38:51 - Total of ocurrences...: 2
+2023-06-07 02:44:21 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:44:21 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:44:21 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:44:21 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:44:21 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:44:21 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:44:21 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:44:21 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:44:21 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:44:21 - Excluding: vendor
+2023-06-07 02:44:21 - Files read ...........: 9
+2023-06-07 02:44:21 - Folders read..........: 1
+2023-06-07 02:44:21 - Files/folders excluded: 1
+2023-06-07 02:44:21 - Files modified........: 0
+2023-06-07 02:44:21 - Total of ocurrences...: 0
+2023-06-07 02:44:40 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:44:40 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:44:40 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:44:40 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:44:40 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:44:40 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:44:40 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:44:40 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:44:40 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:44:40 - Excluding: vendor
+2023-06-07 02:44:40 - Files read ...........: 9
+2023-06-07 02:44:40 - Folders read..........: 1
+2023-06-07 02:44:40 - Files/folders excluded: 1
+2023-06-07 02:44:40 - Files modified........: 0
+2023-06-07 02:44:40 - Total of ocurrences...: 0
+2023-06-07 02:45:32 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:45:32 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:45:32 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:45:32 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:45:32 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:45:32 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:45:32 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:45:32 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:45:32 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:45:32 - Excluding: vendor
+2023-06-07 02:45:32 - Files read ...........: 9
+2023-06-07 02:45:32 - Folders read..........: 1
+2023-06-07 02:45:32 - Files/folders excluded: 1
+2023-06-07 02:45:32 - Files modified........: 0
+2023-06-07 02:45:32 - Total of ocurrences...: 0
+2023-06-07 02:45:50 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:45:50 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:45:50 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:45:50 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:45:50 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:45:50 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:45:50 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:45:50 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:45:50 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:45:50 - Excluding: vendor
+2023-06-07 02:45:50 - Files read ...........: 9
+2023-06-07 02:45:50 - Folders read..........: 1
+2023-06-07 02:45:50 - Files/folders excluded: 1
+2023-06-07 02:45:50 - Files modified........: 0
+2023-06-07 02:45:50 - Total of ocurrences...: 0
+2023-06-07 02:46:10 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:46:10 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:46:10 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:46:10 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:46:10 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:46:10 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:46:10 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:46:10 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:46:10 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:46:10 - Excluding: vendor
+2023-06-07 02:46:10 - Files read ...........: 9
+2023-06-07 02:46:10 - Folders read..........: 1
+2023-06-07 02:46:10 - Files/folders excluded: 1
+2023-06-07 02:46:10 - Files modified........: 0
+2023-06-07 02:46:10 - Total of ocurrences...: 0
+2023-06-07 02:50:45 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:50:45 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:50:45 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:50:45 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:50:45 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:50:45 - Searching on C:\xampp\htdocs\tests\replace\hi... 
+2023-06-07 02:50:45 - Total of occurrences found in C:\xampp\htdocs\tests\replace\hi: 0 
+
+2023-06-07 02:50:45 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:50:45 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:50:45 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:50:45 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:50:45 - Excluding: vendor
+2023-06-07 02:50:45 - Files read ...........: 11
+2023-06-07 02:50:45 - Folders read..........: 1
+2023-06-07 02:50:45 - Files/folders excluded: 1
+2023-06-07 02:50:45 - Files modified........: 0
+2023-06-07 02:50:45 - Total of ocurrences...: 0
+2023-06-07 02:51:55 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:51:55 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 02:51:55 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 02:51:55 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 02:51:55 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:51:55 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:51:55 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 2 
+2023-06-07 02:51:55 - [✓] modified C:\xampp\htdocs\tests\replace\folderOne\cinco.php 
+2023-06-07 02:51:55 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 1 
+2023-06-07 02:51:55 - [✓] modified C:\xampp\htdocs\tests\replace\folderOne\cinco.php 
+2023-06-07 02:51:55 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 1 
+2023-06-07 02:51:55 - [✓] modified C:\xampp\htdocs\tests\replace\folderOne\cinco.php 
+2023-06-07 02:51:55 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 4 
+
+2023-06-07 02:51:55 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:51:55 - Searching on C:\xampp\htdocs\tests\replace\hi... 
+2023-06-07 02:51:55 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 02:51:55 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 02:51:55 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 02:51:55 - Total of occurrences found in C:\xampp\htdocs\tests\replace\hi: 0 
+
+2023-06-07 02:51:55 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:51:55 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\tres.php: 1 
+2023-06-07 02:51:55 - [✓] modified C:\xampp\htdocs\tests\replace\tres.php 
+2023-06-07 02:51:55 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 02:51:55 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 02:51:55 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 1 
+
+2023-06-07 02:51:55 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:51:55 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\uno.php: 0 
+2023-06-07 02:51:55 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\uno.php: 0 
+2023-06-07 02:51:55 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\uno.php: 0 
+2023-06-07 02:51:55 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:51:55 - Excluding: vendor
+2023-06-07 02:51:55 - Files read ...........: 11
+2023-06-07 02:51:55 - Folders read..........: 1
+2023-06-07 02:51:55 - Files/folders excluded: 1
+2023-06-07 02:51:55 - Files modified........: 4
+2023-06-07 02:51:55 - Total of ocurrences...: 5
+2023-06-07 02:54:12 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:54:12 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:54:12 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:54:12 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:54:12 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:54:12 - Searching on C:\xampp\htdocs\tests\replace\hi... 
+2023-06-07 02:54:12 - Total of occurrences found in C:\xampp\htdocs\tests\replace\hi: 0 
+
+2023-06-07 02:54:12 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:54:12 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:54:12 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:54:12 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:54:12 - Excluding: vendor
+2023-06-07 02:54:12 - Files read ...........: 11
+2023-06-07 02:54:12 - Folders read..........: 1
+2023-06-07 02:54:12 - Files/folders excluded: 1
+2023-06-07 02:54:12 - Files modified........: 0
+2023-06-07 02:54:12 - Total of ocurrences...: 0
+2023-06-07 02:54:29 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:54:29 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:54:29 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:54:29 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:54:29 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:54:29 - Searching on C:\xampp\htdocs\tests\replace\hi... 
+2023-06-07 02:54:29 - Total of occurrences found in C:\xampp\htdocs\tests\replace\hi: 0 
+
+2023-06-07 02:54:29 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:54:29 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:54:29 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:54:29 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:54:29 - Excluding: vendor
+2023-06-07 02:54:29 - Files read ...........: 11
+2023-06-07 02:54:29 - Folders read..........: 1
+2023-06-07 02:54:29 - Files/folders excluded: 1
+2023-06-07 02:54:29 - Files modified........: 0
+2023-06-07 02:54:29 - Total of ocurrences...: 0
+2023-06-07 02:55:05 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:55:05 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:55:05 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:55:05 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:55:05 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:55:05 - Searching on C:\xampp\htdocs\tests\replace\hi... 
+2023-06-07 02:55:05 - Total of occurrences found in C:\xampp\htdocs\tests\replace\hi: 0 
+
+2023-06-07 02:55:05 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:55:05 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:55:05 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:55:05 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:55:05 - Excluding: vendor
+2023-06-07 02:55:05 - Files read ...........: 11
+2023-06-07 02:55:05 - Folders read..........: 1
+2023-06-07 02:55:05 - Files/folders excluded: 1
+2023-06-07 02:55:05 - Files modified........: 0
+2023-06-07 02:55:05 - Total of ocurrences...: 0
+2023-06-07 02:55:32 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:55:32 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:55:32 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:55:32 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:55:32 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:55:32 - Searching on C:\xampp\htdocs\tests\replace\hi... 
+2023-06-07 02:55:32 - Total of occurrences found in C:\xampp\htdocs\tests\replace\hi: 0 
+
+2023-06-07 02:55:32 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:55:32 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:55:32 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:55:32 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:55:32 - Excluding: vendor
+2023-06-07 02:55:32 - Files read ...........: 11
+2023-06-07 02:55:32 - Folders read..........: 1
+2023-06-07 02:55:32 - Files/folders excluded: 1
+2023-06-07 02:55:32 - Files modified........: 0
+2023-06-07 02:55:32 - Total of ocurrences...: 0
+2023-06-07 02:55:59 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 02:55:59 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 02:55:59 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 02:55:59 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 02:55:59 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 02:55:59 - Searching on C:\xampp\htdocs\tests\replace\hi... 
+2023-06-07 02:55:59 - Total of occurrences found in C:\xampp\htdocs\tests\replace\hi: 0 
+
+2023-06-07 02:55:59 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 02:55:59 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 02:55:59 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 02:55:59 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 02:55:59 - Excluding: vendor
+2023-06-07 02:55:59 - Files read ...........: 11
+2023-06-07 02:55:59 - Folders read..........: 1
+2023-06-07 02:55:59 - Files/folders excluded: 1
+2023-06-07 02:55:59 - Files modified........: 0
+2023-06-07 02:55:59 - Total of ocurrences...: 0
+2023-06-07 03:00:51 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 03:00:51 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 03:00:51 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 03:00:51 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 03:00:51 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 03:00:51 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 03:00:51 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+2023-06-07 03:00:51 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+2023-06-07 03:00:51 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+2023-06-07 03:00:51 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 0 
+
+2023-06-07 03:00:51 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 03:00:51 - Searching on C:\xampp\htdocs\tests\replace\hi... 
+2023-06-07 03:00:51 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 03:00:51 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 03:00:51 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 03:00:51 - Total of occurrences found in C:\xampp\htdocs\tests\replace\hi: 0 
+
+2023-06-07 03:00:51 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 03:00:51 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 03:00:51 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 03:00:51 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 03:00:51 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 03:00:51 - Searching on C:\xampp\htdocs\tests\replace\uno.php... 
+2023-06-07 03:00:51 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\uno.php: 0 
+2023-06-07 03:00:51 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\uno.php: 0 
+2023-06-07 03:00:51 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\uno.php: 0 
+2023-06-07 03:00:51 - Total of occurrences found in C:\xampp\htdocs\tests\replace\uno.php: 0 
+
+2023-06-07 03:00:51 - Excluding: vendor
+2023-06-07 03:00:51 - Files read ...........: 11
+2023-06-07 03:00:51 - Folders read..........: 1
+2023-06-07 03:00:51 - Files/folders excluded: 1
+2023-06-07 03:00:51 - Files modified........: 0
+2023-06-07 03:00:51 - Total of ocurrences...: 0
+2023-06-07 03:01:49 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 03:01:49 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 03:01:49 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 03:01:49 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 03:01:49 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 03:01:49 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 03:01:49 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 2 
+2023-06-07 03:01:49 - [✓] modified C:\xampp\htdocs\tests\replace\folderOne\cinco.php 
+2023-06-07 03:01:49 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 1 
+2023-06-07 03:01:49 - [✓] modified C:\xampp\htdocs\tests\replace\folderOne\cinco.php 
+2023-06-07 03:01:49 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 1 
+2023-06-07 03:01:49 - [✓] modified C:\xampp\htdocs\tests\replace\folderOne\cinco.php 
+2023-06-07 03:01:49 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 4 
+
+2023-06-07 03:01:49 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 03:01:49 - Searching on C:\xampp\htdocs\tests\replace\hi... 
+2023-06-07 03:01:49 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 03:01:49 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 03:01:49 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 03:01:49 - Total of occurrences found in C:\xampp\htdocs\tests\replace\hi: 0 
+
+2023-06-07 03:01:49 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 03:01:49 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 03:01:49 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 03:01:49 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 03:01:49 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 03:01:49 - Excluding: uno.php
+2023-06-07 03:01:49 - Excluding: vendor
+2023-06-07 03:01:49 - Files read ...........: 9
+2023-06-07 03:01:49 - Folders read..........: 1
+2023-06-07 03:01:49 - Files/folders excluded: 2
+2023-06-07 03:01:49 - Files modified........: 3
+2023-06-07 03:01:49 - Total of ocurrences...: 4
+2023-06-07 03:04:41 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 03:04:41 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 03:04:41 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 03:04:41 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 03:04:41 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 03:04:41 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 03:04:41 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 2 
+2023-06-07 03:04:41 - [✓] modified C:\xampp\htdocs\tests\replace\folderOne\cinco.php 
+2023-06-07 03:04:41 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 1 
+2023-06-07 03:04:41 - [✓] modified C:\xampp\htdocs\tests\replace\folderOne\cinco.php 
+2023-06-07 03:04:41 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 1 
+2023-06-07 03:04:41 - [✓] modified C:\xampp\htdocs\tests\replace\folderOne\cinco.php 
+2023-06-07 03:04:41 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 4 
+
+2023-06-07 03:04:41 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 03:04:41 - Searching on C:\xampp\htdocs\tests\replace\hi... 
+2023-06-07 03:04:41 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 03:04:41 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 03:04:41 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 03:04:41 - Total of occurrences found in C:\xampp\htdocs\tests\replace\hi: 0 
+
+2023-06-07 03:04:41 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 03:04:41 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 03:04:41 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 03:04:41 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 03:04:41 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 03:04:41 - Excluding: uno.php
+2023-06-07 03:04:41 - Excluding: vendor
+2023-06-07 03:04:41 - Files read ...........: 9
+2023-06-07 03:04:41 - Folders read..........: 1
+2023-06-07 03:04:41 - Files/folders excluded: 2
+2023-06-07 03:04:41 - Files modified........: 3
+2023-06-07 03:04:41 - Total of ocurrences...: 4
+2023-06-07 03:07:18 - Searching on C:\xampp\htdocs\tests\replace\class.php... 
+2023-06-07 03:07:18 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 03:07:18 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 03:07:18 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\class.php: 0 
+2023-06-07 03:07:18 - Total of occurrences found in C:\xampp\htdocs\tests\replace\class.php: 0 
+
+2023-06-07 03:07:18 - Searching on C:\xampp\htdocs\tests\replace\folderOne\cinco.php... 
+2023-06-07 03:07:18 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 2 
+2023-06-07 03:07:18 - [✓] modified C:\xampp\htdocs\tests\replace\folderOne\cinco.php 
+2023-06-07 03:07:18 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 1 
+2023-06-07 03:07:18 - [✓] modified C:\xampp\htdocs\tests\replace\folderOne\cinco.php 
+2023-06-07 03:07:18 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 1 
+2023-06-07 03:07:18 - [✓] modified C:\xampp\htdocs\tests\replace\folderOne\cinco.php 
+2023-06-07 03:07:18 - Total of occurrences found in C:\xampp\htdocs\tests\replace\folderOne\cinco.php: 4 
+
+2023-06-07 03:07:18 - Reading dir: C:\xampp\htdocs\tests\replace\folderOne 
+2023-06-07 03:07:18 - Searching on C:\xampp\htdocs\tests\replace\hi... 
+2023-06-07 03:07:18 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 03:07:18 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 03:07:18 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\hi: 0 
+2023-06-07 03:07:18 - Total of occurrences found in C:\xampp\htdocs\tests\replace\hi: 0 
+
+2023-06-07 03:07:18 - Searching on C:\xampp\htdocs\tests\replace\tres.php... 
+2023-06-07 03:07:18 - Ocurrencies for Title -> title on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 03:07:18 - Ocurrencies for Name -> name on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 03:07:18 - Ocurrencies for Categori -> category on file C:\xampp\htdocs\tests\replace\tres.php: 0 
+2023-06-07 03:07:18 - Total of occurrences found in C:\xampp\htdocs\tests\replace\tres.php: 0 
+
+2023-06-07 03:07:18 - Excluding: uno.php
+2023-06-07 03:07:18 - Excluding: vendor
+2023-06-07 03:07:18 - Files read ...........: 9
+2023-06-07 03:07:18 - Folders read..........: 1
+2023-06-07 03:07:18 - Files/folders excluded: 2
+2023-06-07 03:07:18 - Files modified........: 3
+2023-06-07 03:07:18 - Total of ocurrences...: 4

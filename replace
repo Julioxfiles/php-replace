@@ -1,0 +1,273 @@
+<?php
+
+if (strtolower(substr(PHP_OS, 0, 3)) === 'win') {
+    define('OS','windows');
+} else {
+    define('OS','linux');
+}  
+$logs_dir = "logs";
+if (!is_dir($logs_dir)) {mkdir($logs_dir,0777,true);}
+//echo "You are running replace.php on " .OS. "\n";
+
+$params = ['-h' => 'Display the list of params of the command.',
+           '-f' => 'Represents a file or list of files follow by comas that will be replaced.',
+           '-d' => 'Represents the directory that contains the files that will be replaced. The current directory will be use if not is provided. ',
+           '-r' => 'Will read also the sub-directories into the given directory. Values: true, false',
+           '-w' => 'Represents a json file that contains an array of words to be found and replaced.',
+           '-e' => 'Can exclude a directory or list of directories follow by comas to be excleded',
+           '-l' => 'Can set the out put to a log file. Example: -l myfile.log',
+];           
+
+if (isset($argv[1])) {
+  if ($argv[1] == '?' || $argv[1] == '-h' ) {
+    display_help($params);
+  }
+} else {
+    display_help($params);
+} 
+
+function display_help($params) {
+  echo 'This command reads an array from a json file. Example of it: 
+  [ 
+    {"replace":"this text","with":"This other text"},
+    {"replace":"this text 2","with":"This other text 2"}
+  ] 
+  
+  And search and replace it in a file or series of files followed by comma. 
+  Or in an entire directory and subdirectories if you use -r true to do it.
+  
+  For example:
+  php replace -d "C:\xampp\htdocs\tests" -w "words.json" -r true -e vendor,uno.php -l file.log ';
+
+    echo "\n\n Params: \n";
+    foreach ($params as $key => $val) {
+      echo $key." ".$val."\n";
+    }
+    die();
+}
+
+//print_r($argv);
+
+$cparams = [];
+$keys = array_keys($params);
+
+for ($i = 1; $i < count($argv); $i++ ){
+  if (in_array($argv[$i],$keys)) {
+    if (isset($argv[$i+1])) {
+      if (substr($argv[$i+1],0,1) != '-') {
+        $cparams[$argv[$i]] = $argv[$i+1] ;
+        $i++;  
+      }
+    } else {
+      if ($argv[$i] == '-d') {
+        $cparams[$argv[$i]] = getcwd() ;
+      } elseif ($argv[$i] == '-r') {
+        $cparams[$argv[$i]] = "true" ;  
+      } else {
+        echo "Error: You must enter a value for the param ".$argv[$i]." . ".$params[$argv[$i]]." \n";
+        die();
+      }  
+    }
+  } else {
+    echo "Error: ".$argv[$i]." is not a valid param. \n";
+    die();
+  }
+}
+
+if (!isset($cparams['-d'])) {
+  $cparams['-d'] = getcwd() ;
+}
+
+$path = $cparams['-d'];
+if (!file_exists($path)) {
+  echo "Error: The path $path does not exists. \n";
+  die();
+}
+
+if (!isset($cparams['-r'])) {
+  $cparams['-r'] = "false" ;
+}
+
+echo "\n These were your params...\n";
+foreach($cparams as $key => $val) {
+  echo $key." = ".$val."\n";
+}
+echo "\n";
+//die();
+
+$exclude = '';
+if (isset($cparams['-e'])) {
+  $exclude = $cparams['-e'];
+}    
+
+$include = '';
+if (isset($cparams['-i'])) {
+  $include = $cparams['-i'];
+}    
+
+$sub_dirs = '';
+if (isset($cparams['-r'])) {
+  $sub_dirs = $cparams['-r'];
+}   
+
+$words = []; $times_found = 0;
+$total_ocurrences = 0;
+$files_read = 0; $folders_read = 0; 
+$files_excluded = 0; $files_modified = 0;
+
+if (isset($cparams['-f']) && isset($cparams['-w']) ) {
+  //print_r($cparams);
+  $files = explode(",",$cparams['-f']);
+  $json_file = $cparams['-w'];
+  foreach($files as $file) {
+    if (!file_exists($file)) {
+      echo "Error: The file $file does not exists.";
+      die();
+    }  
+    if (!file_exists($json_file)) {
+      echo "Error: The file $json_file does not exists.";
+      die();
+    }  
+    replace_file($file,$json_file);
+  }  
+  //die();
+} elseif (isset($cparams['-d']) && isset($cparams['-w']) ) {
+  $dir = $cparams['-d'];
+  $json_file = $cparams['-w'];
+  replace_dir($dir,$json_file);
+} else {
+  echo "Error: You must provide -f filename or -d directoryPath and -w jsonFileWithWordsToReplace ";
+  die();
+}  
+
+function replace_file($file,$json_file) {
+  
+  $jsonString = file_get_contents($json_file);
+  $words = json_decode($jsonString, true);
+  //var_dump($words);
+  if ($words == NULL) {
+      echo "Error: $json_file file could not be read. Check for the correct use of commas.";
+      die();
+  }
+  
+  //die();
+
+  global $cparams,$files_read,$files_modified,$total_ocurrences;
+  $times_found = 0;
+  
+  if (is_file($file)) { 
+      $msg = "Searching on $file... \n";
+      echo $msg; if (isset($cparams['-l'])) write_log($cparams['-l'],$msg);
+      $files_read++;
+
+      foreach($words as $word) {
+        if (!isset($word['replace']) ) {
+           echo "Hollllllla";
+           die();
+           continue;
+        }
+        $content = file_get_contents($file);
+        if ( preg_match("/".$word['replace']."/", $content) == 0 ) {
+           //echo "The word ".$word['replace']." was not found. \n";
+           $msg = "Ocurrencies for ".$word['replace']." -> ".$word['with']." on file $file: 0 \n";
+           echo $msg; if (isset($cparams['-l'])) write_log($cparams['-l'],$msg);
+           continue;
+        } 
+        
+        $times = substr_count($content, $word['replace']);
+        $times_found = $times_found + $times;
+        $msg = "Ocurrencies for ".$word['replace']." -> ".$word['with']." on file $file: $times \n";
+        echo $msg; if (isset($cparams['-l'])) write_log($cparams['-l'],$msg);
+        
+        $content = str_replace($word['replace'],$word['with'],$content);
+        file_put_contents($file,$content);                  
+        $files_modified++;
+        $msg = "[✓] modified $file \n";
+        echo $msg; if (isset($cparams['-l'])) write_log($cparams['-l'],$msg);
+      } 
+      $total_ocurrences = $total_ocurrences + $times_found;
+      $msg = "Total of occurrences found in $file: $times_found \n\n";
+      echo $msg; if (isset($cparams['-l'])) write_log($cparams['-l'],$msg);
+  }
+ 
+  
+}  
+
+function replace_dir($dir,$json_file) {
+  global $exclude,$sub_dirs;
+  global $files_read,$folders_read,$files_excluded,$files_modified;
+  //echo "dir:".$dir;
+  global $argv,$cparams,$logs_dir;
+  $dh = opendir($dir);
+  $eol = PHP_EOL;
+  while ($ff = readdir($dh)) { if ($ff != "." && $ff != "..") {
+    if (OS == 'windows') {
+      $ff = $dir ."\\". $ff;
+      //echo $ff."\n";
+      $arr = explode('\\',$ff);
+    } else {
+      $ff = $dir ."/". $ff;
+      //echo $ff."\n";
+      $arr = explode('/',$ff);
+    }
+    $filename = $arr[count($arr)-1];
+    
+    //echo "file:".$filename."\n";
+
+    if ($filename == $argv[0] ) continue;
+    if ($filename == $cparams['-w'] ) continue;
+    if ($filename == $logs_dir ) continue;
+    
+    //die();
+
+    $exclude_files = [];
+    if ($exclude != '') {
+        $exclude_files = explode(',',$exclude);
+        //print_r($exclude_files);
+        if (in_array($filename,$exclude_files)) {
+          $msg = "Excluding: ".$filename. "\n";
+          echo $msg; if (isset($cparams['-l'])) write_log($cparams['-l'],$msg);
+          $files_excluded++;
+          continue;
+        }
+    }
+
+    $files_read++;
+    replace_file($ff,$json_file); 
+    
+    if (is_dir($ff)) {
+      if ($sub_dirs == "true") {
+       replace_dir($ff,$json_file);
+       $msg = "Reading dir: $ff \n";
+       echo $msg; if (isset($cparams['-l'])) write_log($cparams['-l'],$msg);
+       $folders_read++;
+      }
+    }
+
+  }}
+}
+
+echo "\n";
+$msg = "Files read ...........: ".$files_read."\n";
+echo $msg; if (isset($cparams['-l'])) write_log($cparams['-l'],$msg);
+$msg = "Folders read..........: ".$folders_read."\n";
+echo $msg; if (isset($cparams['-l'])) write_log($cparams['-l'],$msg);
+$msg = "Files/folders excluded: ".$files_excluded."\n";
+echo $msg; if (isset($cparams['-l'])) write_log($cparams['-l'],$msg);
+$msg = "Files modified........: ".$files_modified."\n";
+echo $msg; if (isset($cparams['-l'])) write_log($cparams['-l'],$msg);
+$msg = "Total of ocurrences...: ".$total_ocurrences."\n";
+echo $msg; if (isset($cparams['-l'])) write_log($cparams['-l'],$msg);
+echo "\n";
+
+
+function write_log($file,$data){
+  $datetime = date("Y-m-d H:i:s");
+  $today = date("Y-m-d");
+  $data = "$datetime - $data";
+  $fh = fopen("logs/".$today."_".$file,'a') or die("Can't open file");
+  fwrite($fh,$data);
+  fclose($fh);
+}
+
+?>
