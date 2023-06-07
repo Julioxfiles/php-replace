@@ -22,21 +22,17 @@ Here is the content.
 
   Examples:
 
+  This command will replace the files fileOne.ext,fileTwo.txt in the current directory. The -l param will create a log file in the logs folder.
+
   ````
   $ php replace -f fileOne.ext,fileTwo.txt -w "words.json" -l file.log 
   ````
 
-  This command will replace the files fileOne.ext,fileTwo.txt in the current directory. The -l param will create a log file in the logs folder.
-
+ This command will replace all the files in the directory "C:\xampp\htdocs\tests" with the content of the file words.json. The param -r true means it will read all sub-directories also. The -e vendor,.env.php will exclude the vendor directory and the .env file. The -l param will create a log file in the logs folder.
   
   ````
   $ php replace -d "C:\xampp\htdocs\tests" -w "words.json" -r true -e vendor,.env.php -l file.log 
   ````
-
-  This command will replace all the files in the directory "C:\xampp\htdocs\tests" with the content of the file words.json. The param -r true means it will read all sub-directories also. The -e vendor,.env.php will exclude the vendor directory and the .env file. The -l param will create a log file in the logs folder.
-
-  
-
 
 ### Params
 
