@@ -16,6 +16,7 @@ Here is the content.
 ## How to use it
 
   For example:
+  
   php replace -d "C:\xampp\htdocs\tests" -w "words.json" -r true -e vendor,uno.php -l file.log 
 
 -h Display the list of params of the command.
