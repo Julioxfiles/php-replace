@@ -1,4 +1,5 @@
 # php replace 
+It works from the Windows/Linux terminal.
 
 ## php replace -f fileToBeReplace.php,anotherFile.txt -w fileWithDataToReplace.json 
 
